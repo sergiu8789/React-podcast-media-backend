@@ -1,0 +1,22 @@
+.card{
+    position: absolute;
+    top: 55%;
+    left: 62.4%;
+    transform: translate(-50%,-50%);
+    width: 43%;
+    height: 40rem;
+    border-radius: 15px;
+    border: "none";
+    background: #30343b;
+}
+.songlist{
+    background-color: red;
+}
+@media only screen and (max-width:568px){
+    body .MuiPaper-root.card-container{
+        left: 5%;
+        transform: unset;
+        width: 90%;
+        top: 15%;
+    }
+}
